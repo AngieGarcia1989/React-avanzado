@@ -24,9 +24,11 @@
     "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
     "devDependencies": {
         "@babel/core": "^7.11.4",
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
         "@babel/preset-env": "^7.11.0",
         "@babel/preset-react": "^7.10.4",
         "babel": "^6.23.0",
+        "babel-eslint": "^10.1.0",
         "babel-loader": "^8.1.0",
         "file-loader": "^6.0.0",
         "html-webpack-plugin": "^4.3.0",
@@ -37,6 +39,7 @@
         "webpack-dev-server": "^3.11.0"
     },
     "dependencies": {
+        "intersection-observer": "^0.11.0",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-icons": "^3.11.0",
@@ -48,6 +51,7 @@
         ]
     },
     "eslintConfig": {
+        "parser": "babel-eslint",
         "extends": [
             "./node_modules/standard/eslintrc.json"
         ]
