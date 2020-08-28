@@ -39,6 +39,7 @@
         "webpack-dev-server": "^3.11.0"
     },
     "dependencies": {
+        "@material-ui/core": "^4.11.0",
         "apollo-boost": "^0.4.9",
         "graphql": "^15.3.0",
         "intersection-observer": "^0.11.0",
